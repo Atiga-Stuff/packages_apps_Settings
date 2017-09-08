@@ -1,0 +1,2 @@
+# GeneraSettings
+-keep class org.genera.settings.**
