@@ -15,6 +15,15 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Categories -->
+    <string name="kategori_konektivitas">Connectivity &amp; Devices</string>
+    <string name="kategori_personalisasi">Personalization</string>
+    <string name="kategori_aplikasi">Apps &amp; Notifications</string>
+    <string name="kategori_keamanan">Security &amp; Privacy</string>
+    <string name="kategori_performa">Performance &amp; Storage</string>
+    <string name="kategori_bantuan">Assistance &amp; Services</string>
+    <string name="kategori_informasi">Device Information</string>
+
     <!-- Hotspot -->
     <string name="wifi_hotspot_hidden_ssid_title">Hidden network</string>
     <string name="wifi_hotspot_hidden_ssid_summary">Your mobile hotspot\'s name won\'t appear in the list of available WLAN networks.</string>
