@@ -29,6 +29,21 @@
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController"/>
 
     <PreferenceCategory
+        android:key="kategori_informasi"
+        android:selectable="false"
+        android:title="@string/kategori_informasi" />
+
+    <com.android.settings.widget.HomepagePreference
+        android:fragment="com.android.settings.deviceinfo.aboutphone.MyDeviceInfoFragment"
+        android:icon="@drawable/ic_phone_info"
+        android:key="top_level_about_device"
+        android:order="-160"
+        android:summary="@string/summary_placeholder"
+        android:title="@string/about_settings"
+        settings:controller="com.android.settings.deviceinfo.aboutphone.TopLevelAboutDevicePreferenceController"
+        settings:highlightableMenuKey="@string/menu_key_about_device" />
+
+    <PreferenceCategory
         android:key="kategori_konektivitas"
         android:selectable="false"
         android:title="@string/kategori_konektivitas" />
@@ -218,20 +233,5 @@
         android:title="@string/page_tab_title_support"
         settings:controller="com.android.settings.support.SupportPreferenceController"
         settings:highlightableMenuKey="@string/menu_key_support" />
-
-    <PreferenceCategory
-        android:key="kategori_informasi"
-        android:selectable="false"
-        android:title="@string/kategori_informasi" />
-
-    <com.android.settings.widget.HomepagePreference
-        android:fragment="com.android.settings.deviceinfo.aboutphone.MyDeviceInfoFragment"
-        android:icon="@drawable/ic_phone_info"
-        android:key="top_level_about_device"
-        android:order="40"
-        android:summary="@string/summary_placeholder"
-        android:title="@string/about_settings"
-        settings:controller="com.android.settings.deviceinfo.aboutphone.TopLevelAboutDevicePreferenceController"
-        settings:highlightableMenuKey="@string/menu_key_about_device" />
 
 </PreferenceScreen>
