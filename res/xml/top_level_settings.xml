@@ -161,7 +161,7 @@
         android:key="top_level_privacy"
         android:order="-80"
         android:summary="@string/privacy_dashboard_summary"
-        title="@string/privacy_dashboard_title"
+        android:title="@string/privacy_dashboard_title"
         settings:highlightableMenuKey="@string/menu_key_privacy"/>
 
     <com.android.settings.widget.HomepagePreference
