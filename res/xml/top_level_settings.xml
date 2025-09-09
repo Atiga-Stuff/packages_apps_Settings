@@ -29,7 +29,7 @@
         android:title="@string/atiga_version"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController"/>
 
-    <Preference
+    <com.android.settings.widget.HomepagePreference
         android:icon="@drawable/ic_system_update"
         android:key="system_update_settings"
         android:order="-240"
@@ -39,7 +39,7 @@
         settings:highlightableMenuKey="@string/menu_key_updater">
 
         <intent android:action="android.settings.SYSTEM_UPDATE_SETTINGS" />
-    </Preference>
+    </com.android.settings.widget.HomepagePreference>
 
     <PreferenceCategory
         android:key="kategori_informasi"
