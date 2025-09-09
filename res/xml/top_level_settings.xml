@@ -29,19 +29,10 @@
         android:title="@string/atiga_version"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController"/>
 
-    <Preference
-        android:fragment="org.genera.settings.GeneraSettingsFragment"
-        android:icon="@drawable/ic_settings_cogs"
-        android:key="top_level_genera"
-        android:order="9"
-        android:title="@string/genera_title"
-        android:summary="@string/genera_summary"
-        settings:controller="org.genera.settings.TopLevelSettingsPreferenceController" />
-
     <com.android.settings.widget.HomepagePreference
         android:icon="@drawable/ic_system_update"
         android:key="system_update_settings"
-        android:order="-240"
+        android:order="-250"
         android:title="@string/system_update_settings_list_item_title"
         android:summary="@string/summary_placeholder"
         settings:controller="com.android.settings.system.SystemUpdatePreferenceController"
@@ -49,6 +40,15 @@
 
         <intent android:action="android.settings.SYSTEM_UPDATE_SETTINGS" />
     </com.android.settings.widget.HomepagePreference>
+
+    <com.android.settings.widget.HomepagePreference
+        android:fragment="org.genera.settings.GeneraSettingsFragment"
+        android:icon="@drawable/ic_settings_cogs"
+        android:key="top_level_genera"
+        android:order="-240"
+        android:title="@string/genera_title"
+        android:summary="@string/genera_summary"
+        settings:controller="org.genera.settings.TopLevelSettingsPreferenceController" />
 
     <PreferenceCategory
         android:key="kategori_informasi"
