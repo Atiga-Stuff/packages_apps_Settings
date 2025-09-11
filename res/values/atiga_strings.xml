@@ -43,6 +43,10 @@
     <!-- Maintainer -->
     <string name="atiga_maintainer">Maintainer</string>
 
+    <!-- Quick Unlock -->
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered. WARNING: DO NOT use a PIN more than 5 digits if you want to use this.</string>
+
     <!-- Version -->
     <string name="atiga_version">LineageOS Version</string>
 </resources>
