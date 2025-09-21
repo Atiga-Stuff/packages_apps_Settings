@@ -23,6 +23,7 @@
     <!-- LineageOS version -->
     <Preference
         android:fragment="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionSettings"
+        android:icon="@drawable/ic_logo_lineage"
         android:key="firmware_version"
         android:order="-999"
         android:summary="@string/summary_placeholder"
